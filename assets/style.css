@@ -1,0 +1,60 @@
+.colorPick{
+    width: 100px;
+    height: 200px;
+    border: 10px solid black;
+}
+.inline{
+    display: inline-block;
+}
+.green{
+    background-color: green;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.blue{
+    background-color: blue;
+}
+
+.green.act:active{
+    background-color: darkgreen;
+}
+.red.act:active{
+    background-color: darkred;
+}
+.yellow.act:active{
+    background-color: rgb(255, 219, 87);
+}
+.blue.act:active{
+    background-color: darkblue;
+}
+
+.green.color{
+    background-color: darkgreen;
+}
+.red.color{
+    background-color: darkred;
+}
+.yellow.color{
+    background-color: rgb(255, 219, 87);
+}
+.blue.color{
+    background-color: darkblue;
+}
+.colorPick.color{
+    border: 10px solid white;
+}
+.colorPick.act:active{
+    border: 10px solid white;
+}
+button#start{
+    width: 414px;
+}
+span#counter{
+    border: 2px solid black;
+    width: 100px;
+
+}
